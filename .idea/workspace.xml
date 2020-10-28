@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72aa80f8-5b74-4612-b5b5-470ee72b3f8a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jNXOPKEKNW7JdYwsDd7Zzkohhk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/flaskr/__init__.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Flask (backend/flaskr/__init__.py)" type="Python.FlaskServer" nameIsGenerated="true">
+      <module name="starter" />
+      <option name="target" value="D:\OneDrive\programming\udacity\02_trivia_api\starter\backend\flaskr\__init__.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72aa80f8-5b74-4612-b5b5-470ee72b3f8a" name="Default Changelist" comment="" />
+      <created>1603645490132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603645490132</updated>
+      <workItem from="1603645491827" duration="608000" />
+      <workItem from="1603647591646" duration="6494000" />
+      <workItem from="1603810821156" duration="7798000" />
+      <workItem from="1603892240012" duration="12754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="402" y="0" key="#Flask_(backend/flaskr/__init__.py)" timestamp="1603892296602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="0" key="#Flask_(backend/flaskr/__init__.py)/0.0.1366.728@0.0.1366.728" timestamp="1603892296602" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603892283874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603892283874" />
+    <state width="610" height="466" key="DebuggerActiveHint" timestamp="1603904101270">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="610" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1603904101270" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603892281230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603892281230" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state width="1323" height="226" key="GridCell.Tab.1.bottom" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state width="1323" height="226" key="GridCell.Tab.1.center" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state width="1323" height="226" key="GridCell.Tab.1.left" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state width="1323" height="226" key="GridCell.Tab.1.right" timestamp="1603907715851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603907715851" />
+    <state x="129" y="13" key="SettingsEditor" timestamp="1603892331453">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603892331453" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1603892239895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603892239895" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/flaskr/__init__.py</url>
+          <line>200</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/starter$Flask__backend_flaskr___init___py_.coverage" NAME="Flask (backend/flaskr/__init__.py) Coverage Results" MODIFIED="1603907570615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
