@@ -168,9 +168,9 @@ def create_app(test_config=None):
   categories in the left column will cause only questions of that 
   category to be shown. 
   '''
-  @app.route("/category/",methods=['GET'])
-  def search_by_category():
-    id = request.args.get('id')
+  @app.route("/categories/<int:id>/questions",methods=['GET'])
+  def search_by_category(id):
+
     try:
       cat = Category.query.filter(Category.id == id).one_or_none()
 

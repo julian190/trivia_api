@@ -67,6 +67,256 @@ One note before you delve into your tasks: for each endpoint you are expected to
 9. Create error handlers for all expected errors including 400, 404, 422 and 500. 
 
 REVIEW_COMMENT
+
+Endpoints 
+
+GET '/categories'
+-getting all categories 
+- it returns an object with a single key, categories which is contain id (string) and category name (string) of the
+{"categories":{
+    "1":"test1",
+    "4":"test2",
+    "5":"test3"},
+        "success":true}
+        
+GET '/questions'
+- getting all available categories also array of question objects 
+- returns an object contain all available categories and array of questions objects 10 result per page(pagination)
+the object contains answer (string) category (string) difficulty (string) id (integer) question(string) 
+
+{"categories":{"1":"test1","4":"test2","5":"test3"},
+"questions":[{
+"answer":"answert12",
+"category":"2",
+"difficulty":null,
+"id":24,
+"question":"test13"},{
+"answer":"answert13",
+"category":"1",
+"difficulty":null,
+"id":25,
+"question":"test13"}]
+
+DELETE '/questions/<question_id>'
+- send a request to delete a question per id and it is required to send question id
+- return the id of deleted question and the rest of the available questions 
+{
+    "deleted": 9,
+    "questions": [
+        {
+            "answer": "answer2",
+            "category": "1",
+            "difficulty": null,
+            "id": 2,
+            "question": "test2"
+        },
+        {
+            "answer": "answer4",
+            "category": "1",
+            "difficulty": 3,
+            "id": 16,
+            "question": "test4"
+        },
+        {
+            "answer": "answer5",
+            "category": "1",
+            "difficulty": null,
+            "id": 17,
+            "question": "test5"
+        },
+        {
+            "answer": "answert6",
+            "category": "2",
+            "difficulty": null,
+            "id": 18,
+            "question": "test6"
+        },
+        {
+            "answer": "answert6",
+            "category": "3",
+            "difficulty": null,
+            "id": 19,
+            "question": "test7"
+        },
+        {
+            "answer": "answert8",
+            "category": "1",
+            "difficulty": null,
+            "id": 20,
+            "question": "test8"
+        },
+        {
+            "answer": "answert9",
+            "category": "2",
+            "difficulty": null,
+            "id": 21,
+            "question": "test9"
+        },
+        {
+            "answer": "answert10",
+            "category": "3",
+            "difficulty": null,
+            "id": 22,
+            "question": "test10"
+        },
+        {
+            "answer": "answer11",
+            "category": "1",
+            "difficulty": null,
+            "id": 23,
+            "question": "test11"
+        },
+        {
+            "answer": "answert12",
+            "category": "2",
+            "difficulty": null,
+            "id": 24,
+            "question": "test12"
+        }
+    ],
+    "success": true,
+    "total_questions": 11
+    
+POST'/questions'
+- to create a new question you need to send JSON parameter contain [question,answer,category,difficulty] 
+- it is returns paginated question which will contain also the new added question
+{"questions": [
+        {
+            "answer": "answer2",
+            "category": "1",
+            "difficulty": null,
+            "id": 2,
+            "question": "test2"
+        },
+        {
+            "answer": "answer4",
+            "category": "1",
+            "difficulty": 3,
+            "id": 16,
+            "question": "test4"
+        },
+        {
+            "answer": "answer5",
+            "category": "1",
+            "difficulty": null,
+            "id": 17,
+            "question": "test5"
+        },
+        {
+            "answer": "answert6",
+            "category": "2",
+            "difficulty": null,
+            "id": 18,
+            "question": "test6"
+        },
+        {
+            "answer": "answert6",
+            "category": "3",
+            "difficulty": null,
+            "id": 19,
+            "question": "test7"
+        },
+        {
+            "answer": "answert8",
+            "category": "1",
+            "difficulty": null,
+            "id": 20,
+            "question": "test8"
+        },
+        {
+            "answer": "answert9",
+            "category": "2",
+            "difficulty": null,
+            "id": 21,
+            "question": "test9"
+        },
+        {
+            "answer": "answert10",
+            "category": "3",
+            "difficulty": null,
+            "id": 22,
+            "question": "test10"
+        },
+        {
+            "answer": "answer11",
+            "category": "1",
+            "difficulty": null,
+            "id": 23,
+            "question": "test11"
+        },
+        {
+            "answer": "answert12",
+            "category": "2",
+            "difficulty": null,
+            "id": 24,
+            "question": "test12"
+        }
+    ],
+    "success": true,
+    "total_questions": 11
+}
+
+GET '/categories/<id>/questions'
+- get questions by category id send id required on the address
+- return all the question under this category 
+{
+    "current_category": "test1",
+    "questions": [
+        {
+            "answer": "answer2",
+            "category": "1",
+            "difficulty": null,
+            "id": 2,
+            "question": "test2"
+        },
+        {
+            "answer": "answer4",
+            "category": "1",
+            "difficulty": 3,
+            "id": 16,
+            "question": "test4"
+        },
+        {
+            "answer": "answer5",
+            "category": "1",
+            "difficulty": null,
+            "id": 17,
+            "question": "test5"
+        },
+        {
+            "answer": "answert8",
+            "category": "1",
+            "difficulty": null,
+            "id": 20,
+            "question": "test8"
+        },
+        {
+            "answer": "answer11",
+            "category": "1",
+            "difficulty": null,
+            "id": 23,
+            "question": "test11"
+        }
+    ],
+    "success": true,
+    "total_questions": 11
+}
+
+POST'/quizzes'
+- Allows users to play the quiz game.
+- you should send JSON request parameter for previous questions and question category .
+- Returns random questions on object format 
+  {
+      "question": {
+          "answer": "answer11", 
+          "category": 1, 
+          "difficulty": null, 
+          "id": 23, 
+          "question": "test11"
+      }, 
+      "success": true
+  }
+
 ```
 This README is missing documentation of your endpoints. Below is an example for your endpoint to get all categories. Please use it as a reference for creating your documentation and resubmit your code. 
 
