@@ -146,6 +146,7 @@ def create_app(test_config=None):
             'current_category':1
           })
         else:
+          if question ==None or answer == None:abort(422)
           que = Question(question= question,answer=answer,difficulty=difficulty,category= category)
           que.insert()
           selection  = Question.query.all()
